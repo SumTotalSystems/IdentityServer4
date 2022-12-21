@@ -1,5 +1,7 @@
 # Sponsors
 
+These are former sponsors of the project. We are retaining this list but IdentityServer4 is no longer sponsored.
+
 We thank those who [support](https://www.patreon.com/identityserver) IdentityServer!
 
 ## Corporate
