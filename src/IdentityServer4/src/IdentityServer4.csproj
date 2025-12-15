@@ -2,7 +2,7 @@
   
   <PropertyGroup>
     <PackageId>SumTotal.IdentityServer4</PackageId>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Description>OpenID Connect and OAuth 2.0 Framework for ASP.NET Core</Description>
     <Authors>Brock Allen;Dominick Baier</Authors>
     <AssemblyName>SumTotal.IdentityServer4</AssemblyName>
@@ -40,11 +40,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="SumTotal.IdentityServer4.Storage" />
     <PackageReference Include="IdentityModel" />
-
-    <PackageReference Include="Newtonsoft.Json" />
-    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" />
 
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
