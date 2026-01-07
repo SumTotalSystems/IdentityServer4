@@ -16,7 +16,7 @@ Active development happens on the main branch. This always contains the latest v
 
 ## How to build
 
-* [Install](https://www.microsoft.com/net/download/core#/current) the latest .NET Core 3.1 SDK
+* [Install](https://www.microsoft.com/net/download/core#/current) the latest .NET Core 8 SDK
 * Install Git
 * Clone this repo
 * Run `build.ps1` or `build.sh` in the root of the cloned repo
@@ -40,3 +40,8 @@ IdentityServer4 is built using the following great open source projects and free
 * [GitReleaseManager](https://github.com/GitTools/GitReleaseManager)
 
 ..and last but not least a big thanks to all our [contributors](https://github.com/SumTotalSystems/IdentityServer4/graphs/contributors)!
+
+#Publishing Nuget Package
+
+Run the following command providing appropriate api key and nuget upload location
+dotnet nuget push 'IdentityServer4\nuget\SumTotal.IdentityServer4.5.0.0.nupkg' -k 'apikey' -s 'url/to/nuget/location'
